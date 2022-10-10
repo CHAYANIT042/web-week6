@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+    margin-top: 3%;
+   
+}
+bl{
+    color: red;
+}
+legend{
+    font-size: 30px;
+}
+input[type="submit"] {
+   color: #fff;
+   background: linear-gradient(120deg, royalblue,#decba4);
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+   margin-left: 38%;
+   margin-top: 1.5%;
+   padding: 2.5px 13px;
+} 
+input[type="submit"]:hover{
+    background: royalblue;
+    color: #fff;
+}
+
+input[type="reset"]{
+    color: black;
+    background-color: none;
+    padding: 1px 5px;
+    margin-top: 1.5%;
+    margin-left: 5%;    
+    cursor: pointer;
+    padding: 2.5px 13px;
+} 
+input[type="reset"]:hover{
+    background: orangered;
+    color: #fff;
+}
+
+
+
